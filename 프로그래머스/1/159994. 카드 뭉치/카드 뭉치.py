@@ -1,6 +1,6 @@
 def solution(cards1, cards2, goal):
     answer = "No"
-    i, j, k = 0, 0, 0
+    i, j = 0, 0
 
     for word in goal :
         if i < len(cards1) and cards1[i] == word :
